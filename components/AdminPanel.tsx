@@ -82,7 +82,12 @@ export const AdminPanel: React.FC = () => {
                 <div className="w-24 h-4 bg-black rounded-b-xl"></div>
              </div>
 
-             <div className="pt-7 h-full w-full bg-white relative">
+             {/* 
+                Main Content Area 
+                Use absolute positioning (top-7 bottom-0) to strictly define the app viewport area
+                excluding the notch. This matches the calculation area for x/y percentages.
+             */}
+             <div className="absolute top-7 bottom-0 w-full bg-white">
                 <ClientApp interactive={false} />
                 
                 {/* Interaction Layer */}

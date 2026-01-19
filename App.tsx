@@ -21,8 +21,8 @@ const App: React.FC = () => {
                 <div className="w-24 h-4 bg-black rounded-b-xl"></div>
              </div>
              
-             {/* App Content */}
-             <div className="pt-7 h-full w-full">
+             {/* App Content - using absolute positioning to ensure 100% height matches 100% of available area minus notch */}
+             <div className="absolute top-7 bottom-0 w-full bg-white">
                 <ClientApp />
              </div>
           </div>
