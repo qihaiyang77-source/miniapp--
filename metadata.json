@@ -1,0 +1,5 @@
+{
+  "name": "Co-Browse Assist",
+  "description": "A remote guidance simulation platform where an admin can view a user's screen and place visual markers to guide them in real-time, powered by Gemini for contextual support suggestions.",
+  "requestFramePermissions": []
+}
